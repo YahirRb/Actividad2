@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  position: relative;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  max-width: 780px;
+  margin: 0;
+  background: #dd6c75ec;
+  color: white;
+  font-family: "Roboto slab", serif;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+.autor {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fondo_banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+.icono_autor {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 100%;
+  background: white;
+}
+
+.icono_autor img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.datos_autor {
+  color: rgb(51, 51, 51);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.nombre_autor {
+  font-weight: bold;
+}
+
+.espacio {
+  display: flex;
+  width: 100%;
+  height: 0;
+  margin-top: -8px;
+  border: 2px solid #e6e6e6;
+}
+
+.fecha_actualizacion {
+  font-style: italic;
+}
+
+.parrafo_texto {
+  width: 70vw;
+  margin: 0 auto;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+}
+
+.lista_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numerador_item {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.item_articulo {
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+}
+
+.contenido_item {
+  display: flex;
+  flex-direction: column;
+  width: 66.6vw;
+}
+
+.contenido_item h2 {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+
+.contenido_item p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+}
+
+.enlace {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: #42b4d6;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.enlace:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  object-fit: cover;
+  max-height: 200px;
+  margin: 0 auto;
+  align-self: center;
+}
